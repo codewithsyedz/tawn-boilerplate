@@ -13,7 +13,7 @@ import LocalSwitcher from './locale-switcher'
 import HeaderLogo from "./header-logo"
 
 
-const DashCodeHeader = async () => {
+const TawnCodeHeader = async () => {
 
 
     return (
@@ -27,8 +27,8 @@ const DashCodeHeader = async () => {
                 <div className="nav-tools flex items-center  md:gap-4 gap-3">
                     <LocalSwitcher />
                     <ThemeSwitcher />
-                    <Cart />
-                    <Messages />
+                    {/* <Cart /> */}
+                    {/* <Messages /> */}
                     <Notifications />
                     <ProfileInfo />
                     <SheetMenu />
@@ -39,4 +39,4 @@ const DashCodeHeader = async () => {
     )
 }
 
-export default DashCodeHeader
+export default TawnCodeHeader

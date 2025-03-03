@@ -1,6 +1,6 @@
 import React from 'react'
 type IconProps = React.HTMLAttributes<SVGElement>
-const DashCodeLogo = (props: IconProps) => {
+const TawnCodeLogo = (props: IconProps) => {
     return (
         <>
 
@@ -26,4 +26,4 @@ const DashCodeLogo = (props: IconProps) => {
     )
 }
 
-export default DashCodeLogo
+export default TawnCodeLogo

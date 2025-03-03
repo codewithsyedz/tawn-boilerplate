@@ -5,7 +5,7 @@ import Logo from '@/components/logo'
 import { Menu } from './menu'
 
 
-const DashCodeSidebar = () => {
+const TawnCodeSidebar = () => {
     return (
         <SidebarContent>
 
@@ -18,4 +18,4 @@ const DashCodeSidebar = () => {
     )
 }
 
-export default DashCodeSidebar
+export default TawnCodeSidebar

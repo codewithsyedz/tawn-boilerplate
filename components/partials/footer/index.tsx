@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Icon } from "@/components/ui/icon";
 
 
-const DashCodeFooter = async () => {
+const TawnCodeFooter = async () => {
 
     return (
         <FooterContent>
@@ -81,4 +81,4 @@ const DashCodeFooter = async () => {
     )
 }
 
-export default DashCodeFooter
+export default TawnCodeFooter
