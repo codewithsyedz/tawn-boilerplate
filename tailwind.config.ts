@@ -65,11 +65,11 @@ const config = {
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar))",
-          
+
         },
         header: {
           DEFAULT: "hsl(var(--header))",
-          
+
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

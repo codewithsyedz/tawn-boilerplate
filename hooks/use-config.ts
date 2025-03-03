@@ -52,6 +52,6 @@ export const defaultConfig: Config = {
 const configAtom = atomWithStorage<Config>("config", defaultConfig)
 
 export function useConfig() {
-  
+
   return useAtom(configAtom)
 }

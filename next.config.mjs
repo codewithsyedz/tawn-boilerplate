@@ -1,8 +1,15 @@
 import createNextIntlPlugin from "next-intl/plugin";
+import nextra from "nextra";
 
 /** @type {import('next').NextConfig} */
 
 const withNextIntl = createNextIntlPlugin();
+
+
+const withNextra = nextra({
+  theme: "nextra-theme-docs",
+  themeConfig: "./theme.config.tsx",
+});
 
 const nextConfig = {
   images: {
@@ -31,4 +38,4 @@ const nextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withNextIntl(withNextra(nextConfig));
